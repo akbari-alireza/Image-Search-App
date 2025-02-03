@@ -74,15 +74,15 @@ const App: React.FC = () => {
           ))}
         </div>
 
-        {showMore && (
+        {showMore ? (
           <button
             id="show-more-button"
-            className='mt-4 text-blue-500 mb-5'
+            className='mt-4 text-blue-500 mb-5 hover:text-blue-700 hover:border-b-2 border-blue-700'
             onClick={handleShowMore}
           >
             Show More
           </button>
-        )}
+        ) : ''}
       </div>
     </div>
   );
