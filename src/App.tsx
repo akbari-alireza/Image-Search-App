@@ -77,7 +77,7 @@ const App: React.FC = () => {
         {showMore && (
           <button
             id="show-more-button"
-            className='mt-4 text-blue-500'
+            className='mt-4 text-blue-500 mb-5'
             onClick={handleShowMore}
           >
             Show More
